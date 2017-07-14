@@ -1,0 +1,12 @@
+# exclude everything except directory foo/bar
+.DS_Store
+python_fundamentals/May2017MonthlyIssuedPermit.csv
+python_fundamentals/May2017MonthlyIssuedPermit.pdf
+python_fundamentals/csv1.py
+python_fundamentals/sqlite1.py
+pytweet/*
+mors/*
+python_fundamentals/__pycache__/*
+mors
+pytweet
+scrape.py
