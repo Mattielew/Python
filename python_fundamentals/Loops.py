@@ -19,7 +19,7 @@
 #      CREATED:  
 #     REVISION: ---
 #===============================================================================
-
+ 
 words = ["red","cat","blue","hat","matt"]
 print(words)
 print ("""okay, so we are going to loop over the list, nothing fancy.""")

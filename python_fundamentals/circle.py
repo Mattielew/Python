@@ -27,3 +27,4 @@ X, Y = np.meshgrid(x,y)
 F = X**2 + Y**2 - 0.6
 plt.contour(X,Y,F,[0])
 plt.show()
+
