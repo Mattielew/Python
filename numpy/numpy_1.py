@@ -25,6 +25,7 @@ import matplotlib.pyplot as plt
 plt.ion()
 plt.plot([1.6, 2.7])
 
+print('\nData Creation\n')
 #generating some data to work with 
 s = pd.Series([1,3,5,np.nan,6,8])
 print(s) 
@@ -44,9 +45,11 @@ df2 = pd.DataFrame({'A' : 1.,
                     'F' : 'foo' })
 print(df2)
 
+print('\nData Type Identification\n')
 #having specific dtypes
 print(df2.dtypes)
 
+print('\nView Commands\n')
 #Viewing data 
 #top records
 print(df.head)
@@ -57,7 +60,7 @@ print(df.index)
 
 # print just the columns
 print(df.columns)
-#print just the values 
+print('just the values')
 print(df.values)
 
 print('\nDescriptive Statistics\n')
