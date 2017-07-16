@@ -22,6 +22,8 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
+plt.ion()
+plt.plot([1.6, 2.7])
 
 #generating some data to work with 
 s = pd.Series([1,3,5,np.nan,6,8])
@@ -45,4 +47,29 @@ print(df2)
 #having specific dtypes
 print(df2.dtypes)
 
+#Viewing data 
+#top records
+print(df.head)
+#bottom records
+print(df.tail)
+print('\nprint index of data\n')
+print(df.index)
 
+# print just the columns
+print(df.columns)
+#print just the values 
+print(df.values)
+
+print('\nDescriptive Statistics\n')
+print('describe creates some simple descriptive statistics about your data-set')
+print(df.describe())
+
+print('\nTransposition\n') 
+#Transpose your data to have a different view or to export it in a different format
+print(df.T)
+
+stacked = df2.stack
+print(stacked)
+
+print('\nPivot Tables\n')
+pd.pivot_table(df, values='D', index=['A', 'B'], columns=['C'])
