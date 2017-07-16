@@ -6,7 +6,7 @@
 #
 #        USAGE: ./ 
 #
-#  DESCRIPTION: This is going to be a demonstration of the capabilities of numpy in python
+#  DESCRIPTION: A demonstration of the capabilities of numpy in python
 #
 #      OPTIONS: ---
 # REQUIREMENTS: ---
@@ -45,5 +45,4 @@ print(df2)
 #having specific dtypes
 print(df2.dtypes)
 
- 
 
