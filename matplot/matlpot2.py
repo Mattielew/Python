@@ -25,16 +25,14 @@ import matplotlib.patches as patches
 
 verts = [
             (0., 0.),  # P0
-                (0.2, 1.), # P1
-                    (1., 0.8), # P2
-                        (0.8, 0.), # P3
-                            ]
+            (0.2, 1.), # P1 
+            (1., 0.8), # P2
+            (0.8, 0.), # P3]
 
 codes = [Path.MOVETO,
-                 Path.CURVE4,
-                          Path.CURVE4,
-                                   Path.CURVE4,
-                                            ]
+        Path.CURVE4,
+        Path.CURVE4,
+        Path.CURVE4,]
 
 path = Path(verts, codes)
 
