@@ -52,4 +52,8 @@ dict.update(mystuff)
 print(mystuff)
 
 
+dict_1 = {'foo' : 100, 'bar' : 200, 'baz' : 300}
+ser_3 = Series(dict_1)
+print(ser_3)
+
 
