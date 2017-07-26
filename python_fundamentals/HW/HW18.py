@@ -6,7 +6,7 @@
 #
 #        USAGE: ./ 
 #
-#  DESCRIPTION: This is going to be an aexample of the functions in python
+#  DESCRIPTION: This is going to be an example of the functions in python
 #
 #      OPTIONS: ---
 # REQUIREMENTS: ---
