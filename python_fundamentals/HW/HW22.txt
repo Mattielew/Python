@@ -1,0 +1,25 @@
+Class 
+print - Prints the values to a stream, or to sys.stdout by default
+string
+float
+bool
+int - numerical characters in python, 
+
+char - A single character comprised of one byte
+
+sys 
+import
+from 
+def- Method or function command, requires certain inputs and commands to be included on a new line and indented.
+argv
+# - Python's comment marker, place at the front of a string of characters to generate a comment that the script does not
+run as code
+" - quote, ',""" are also allowe 
++ - / * ** - operators for mathematical functions 
+
+#!/usr/bin/python - the program loader is instructed to run the program /bin/sh instead, passing path/to/script as the first argument.
+
+
+
+====================0====================0====================0====================0====================0
+
