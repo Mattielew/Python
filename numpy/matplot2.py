@@ -2,11 +2,11 @@
 #-*- coding: utf-8 -*-
 #===============================================================================
 #
-#         FILE: REPLACE.py
+#         FILE: matplot22.py
 #
 #        USAGE: ./ 
 #
-#  DESCRIPTION: 
+#  DESCRIPTION: Demonstration of plotting graphics 
 #
 #      OPTIONS: ---
 # REQUIREMENTS: ---
@@ -18,7 +18,16 @@
 #      CREATED:  
 #     REVISION: ---
 #===============================================================================
+
+
+import numpy as np
 import matplotlib.pyplot as plt
-plt.plot([1,2,3,4,-5])
-plt.ylabel('numbers')
+
+# evenly sampled time at 200ms intervals
+t = np.arange(0., 5., 0.2)
+
+# red dashes, blue squares and green triangles
+plt.plot(t, t, 'r--', t, t**2, 'bs', t, t**3, 'g^', linewidth=2.0)
 plt.show()
+
+# -- = dashes s = square and ^ = triangles. I know it's screwy...don't look at me I didn't invent it.
