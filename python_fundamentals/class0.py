@@ -181,7 +181,7 @@ class Dog:
     kind = 'canine'
 
     def __init__(self, name):
-        self.name = name#instance variable uniique to each instance 
+        self.name = name#instance variable unique to each instance 
 
 d = Dog('Fido')
 b = Dog('Bruce')
@@ -253,14 +253,14 @@ print(y)
 class Employee():
     pass
 
-john = Employee()
+james = Employee()
 # This is going to generate a new employee instance 
 #fill in the fields that will list out the records 
-john.name = 'John Doe'
-john.dept = 'Computer Lab'
-john.sal = 100000
-print(john.name, "gets an average salary of $",john.sal, ".00 per year")
-print("Not bad", john.name)
+james.name = 'John Doe'
+james.dept = 'Computer Lab'
+james.sal = 100000
+print(james.name, "gets an average salary of $",james.sal, ".00 per year")
+print("Not bad", james.name)
 
 #Fruits that demonstrate the different instances of a class 
 class Fruit:
