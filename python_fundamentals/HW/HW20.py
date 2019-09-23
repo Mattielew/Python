@@ -49,11 +49,7 @@ print("Let's print three lines:")
 
 current_line = 1
 print_a_line(current_line, current_file)
-#angelheaded hipsters burning for the ancient heavenly connection to the starry dynamo in the machinery of night,
-
-current_line = current_line + 1
-print_a_line(current_line, current_file)
-#who poverty and tatters and hollow-eyed and high sat up smoking in the supernatural darkness of cold-water flats
+#angelheaded hipsters burning for the ancient heavenly connection to the starry dynamo in the machinery of the night,
 
 current_line = current_line + 1
 print_a_line(current_line, current_file)
