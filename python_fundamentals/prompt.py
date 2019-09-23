@@ -20,7 +20,7 @@
 #     REVISION: Wed Jun 21 08:18:13 PDT 2017
 #===============================================================================
 
-x = int(input("PLease enter a value:"))
+x = int(input("Please enter a value:"))
 
 if x < 0:
     x = 0
