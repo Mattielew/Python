@@ -18,15 +18,6 @@
 #      CREATED: Fri Apr 27 22:04:51 PDT 2018
 #     REVISION: ---
 #===============================================================================
-
-#Process 
-#touch
-#vim
-#r!date 
-
-
-#import requests
-
 print("Content-Type: text/plain")
 print("")
 print("Congratulations, it's a web app!")
